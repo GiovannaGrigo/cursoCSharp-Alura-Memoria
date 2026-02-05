@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UsuarioLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6290ba245781ed060e5a8c0a293eb058ab66d66e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c95d5f9583116574186398bf7b37a112339ee717")]
 [assembly: System.Reflection.AssemblyProductAttribute("UsuarioLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UsuarioLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
