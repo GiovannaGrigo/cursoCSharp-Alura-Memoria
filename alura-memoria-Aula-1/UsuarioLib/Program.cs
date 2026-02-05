@@ -1,17 +1,10 @@
 ﻿using UsuarioLib;
 
-Usuario usuario = 
+Usuario usuario =
     new Usuario(
-        "Giovanna", 
+        "Giovanna",
         "giovanna@email.com",
-        new List<string>() {"12345678"});
-
-Usuario usuario2 =
-    new Usuario(
-        "Matheus",
-        "matheus@email.com",
-        new List<string>() { "87654321" });
-
+        new List<string>() { "12345678" });
 
 //12345678
 usuario.ExibeTelefones();
