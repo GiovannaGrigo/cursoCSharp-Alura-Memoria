@@ -30,16 +30,13 @@ using UsuarioLib;
 
 // Console.WriteLine(sw.Elapsed.TotalMilliseconds);
 
-FormularioDto dto = new FormularioDto();
-dto.Nome = "Giovanna";
-dto.Idade = 19;
-dto.Cargo = "Dev";
-dto.Cpf = "1234567890";
+FormularioDto dto = new FormularioDto("Giovanna", "111111111", "Dev") { Idade = 19 };
+Console.WriteLine($"Valor do nome: {dto.Nome}");
 
-FormularioDto dto2 = new FormularioDto();
-dto.Nome = "Giovanna";
-dto.Idade = 19;
-dto.Cargo = "Dev";
-dto.Cpf = "1234567890";
+// FormularioDto dto2 = new FormularioDto();
+// dto.Nome = "Giovanna";
+// dto.Idade = 19;
+// dto.Cargo = "Dev";
+// dto.Cpf = "1234567890";
 
-Console.WriteLine(dto == dto2);
+// Console.WriteLine(dto == dto2);
