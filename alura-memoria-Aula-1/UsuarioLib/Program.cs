@@ -30,8 +30,8 @@ using UsuarioLib;
 
 // Console.WriteLine(sw.Elapsed.TotalMilliseconds);
 
-FormularioDto dto = new FormularioDto("Giovanna", "111111111", "Dev") { Idade = 19 };
-Console.WriteLine($"Valor do nome: {dto.Nome}");
+// FormularioDto dto = new FormularioDto("Giovanna", "111111111", "Dev") { Idade = 19 };
+// Console.WriteLine($"Valor do nome: {dto.Nome}");
 
 // FormularioDto dto2 = new FormularioDto();
 // dto.Nome = "Giovanna";
@@ -40,3 +40,15 @@ Console.WriteLine($"Valor do nome: {dto.Nome}");
 // dto.Cpf = "1234567890";
 
 // Console.WriteLine(dto == dto2);
+
+UsuarioDto dto1 = new UsuarioDto();
+dto1.Nome = "Giovanna";
+dto1.Email = "giovanna@email.com";
+dto1.Telefones = new List<string>();
+
+UsuarioDto dto2 = new UsuarioDto();
+dto2.Nome = "Giovanna";
+dto2.Email = "giovanna@email.com";
+dto2.Telefones = new List<string>();
+
+Console.WriteLine(dto1 == dto2);
