@@ -2,7 +2,7 @@
 
 namespace UsuarioLib;
 
-public struct Coordenada : ICoordenada
+public record struct Coordenada : ICoordenada
 {
     public Coordenada(double latitude, double longitude)
     {
