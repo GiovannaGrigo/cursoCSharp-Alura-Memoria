@@ -1,6 +1,6 @@
 namespace UsuarioLib
 {
-    public record struct FormularioDto(string Nome, string Cpf, string Cargo, int Idade)
+    public readonly record struct FormularioDto(string Nome, string Cpf, string Cargo, int Idade)
     {
     }
 }
